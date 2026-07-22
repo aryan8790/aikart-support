@@ -29,8 +29,7 @@ export default function LoginPage() {
       {/* Left side branding */}
       <div className="absolute top-8 left-8">
         <p className="text-gray-500 text-xs uppercase tracking-widest mb-1">AIKart Assignment</p>
-        <p className="text-white text-lg font-semibold">Aryan Tekade</p>
-        <p className="text-indigo-400 text-xs mt-1">Full Stack Developer Intern</p>
+        <p className="text-white text-lg font-semibold">By-Aryan Tekade</p>
       </div>
 
       <div className="w-full max-w-md">
