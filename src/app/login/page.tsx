@@ -25,7 +25,14 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-950 flex items-center justify-center px-4">
+   <div className="min-h-screen bg-gray-950 flex items-center justify-center px-4 relative">
+      {/* Left side branding */}
+      <div className="absolute top-8 left-8">
+        <p className="text-gray-500 text-xs uppercase tracking-widest mb-1">AIKart Assignment</p>
+        <p className="text-white text-lg font-semibold">Aryan Tekade</p>
+        <p className="text-indigo-400 text-xs mt-1">Full Stack Developer Intern</p>
+      </div>
+
       <div className="w-full max-w-md">
         <div className="mb-8">
           <h1 className="text-2xl font-semibold text-white">SupportDesk</h1>
