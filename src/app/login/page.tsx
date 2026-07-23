@@ -26,7 +26,25 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-950 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gray-950 flex items-center justify-center px-4 relative">
+
+      {/* ← LEFT SIDE BRANDING */}
+      <div className="absolute left-10 top-1/2 -translate-y-1/2 hidden lg:block">
+        <div className="border-l-4 border-indigo-500 pl-5">
+          <p className="text-xs text-indigo-400 uppercase tracking-widest mb-2 font-medium">
+            AIKart Assignment
+          </p>
+          <p className="text-3xl font-bold text-white leading-tight">Aryan</p>
+          <p className="text-3xl font-bold text-indigo-400 leading-tight">Tekade</p>
+          <p className="text-sm text-gray-500 mt-3">Full Stack Developer Intern</p>
+          <div className="mt-4 space-y-1">
+            <p className="text-xs text-gray-600">✦ Next.js 14 + TypeScript</p>
+            <p className="text-xs text-gray-600">✦ Supabase + PostgreSQL</p>
+            <p className="text-xs text-gray-600">✦ Deployed on Vercel</p>
+          </div>
+        </div>
+      </div>
+
       <div className="w-full max-w-md">
         <div className="mb-8">
           <h1 className="text-2xl font-semibold text-white">SupportDesk</h1>
