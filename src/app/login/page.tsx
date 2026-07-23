@@ -34,13 +34,11 @@ export default function LoginPage() {
           <p className="text-xs text-indigo-400 uppercase tracking-widest mb-2 font-medium">
             AIKart Assignment
           </p>
-          <p className="text-3xl font-bold text-white leading-tight">Aryan</p>
-          <p className="text-3xl font-bold text-indigo-400 leading-tight">Tekade</p>
-          <p className="text-sm text-gray-500 mt-3">Full Stack Developer Intern</p>
+          <p className="text-3xl font-bold text-white leading-tight">By-Aryan Tekade</p>
+          
+      
           <div className="mt-4 space-y-1">
-            <p className="text-xs text-gray-600">✦ Next.js 14 + TypeScript</p>
-            <p className="text-xs text-gray-600">✦ Supabase + PostgreSQL</p>
-            <p className="text-xs text-gray-600">✦ Deployed on Vercel</p>
+           
           </div>
         </div>
       </div>
