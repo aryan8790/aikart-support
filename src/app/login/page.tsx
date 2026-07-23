@@ -33,7 +33,7 @@ export default function LoginPage() {
           <p className="text-xs text-indigo-400 uppercase tracking-widest mb-2 font-medium">
             AIKart Assignment
           </p>
-          <p className="text-3xl font-bold text-white leading-tight">By-Aryan Tekade</p>
+          <p className="text-lg font-semibold text-white leading-tight">By-Aryan Tekade</p>
           
       
           <div className="mt-4 space-y-1">
