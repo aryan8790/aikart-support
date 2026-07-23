@@ -28,8 +28,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-gray-950 flex items-center justify-center px-4 relative">
 
-      {/* ← LEFT SIDE BRANDING */}
-      <div className="absolute left-10 top-1/2 -translate-y-1/2 hidden lg:block">
+      {/* ← LEFT SIDE BRANDING */}<div className="absolute left-10 top-8 hidden lg:block">
         <div className="border-l-4 border-indigo-500 pl-5">
           <p className="text-xs text-indigo-400 uppercase tracking-widest mb-2 font-medium">
             AIKart Assignment
